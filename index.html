@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bella Beauty | Salon de înfrumusețare în Brașov</title>
+  <meta name="description" content="Bella Beauty este un salon de înfrumusețare din Brașov: coafură, manichiură, cosmetică și masaj, într-un spațiu calm și îngrijit. Programează-te online.">
+
+  <!-- Open Graph (previzualizare la distribuirea linkului) -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Bella Beauty | Salon de înfrumusețare în Brașov">
+  <meta property="og:description" content="Coafură, manichiură, cosmetică și masaj, într-un spațiu calm și îngrijit.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=1200&q=80">
+  <meta property="og:locale" content="ro_RO">
+
+  <!-- Fonturi: Cormorant Garamond (titluri) + Jost (text) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Jost:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body id="top">
+
+  <!-- ========== ANTET + NAVIGARE ========== -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#top" class="logo">Bella Beauty</a>
+
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav" aria-label="Deschide meniul">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav" id="nav" aria-label="Navigare principală">
+        <ul>
+          <li><a href="#servicii">Servicii</a></li>
+          <li><a href="#despre">Despre noi</a></li>
+          <li><a href="#galerie">Galerie</a></li>
+          <li><a href="#recenzii">Recenzii</a></li>
+          <li><a href="#program">Program</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#programare" class="btn btn--accent btn--small">Programează-te</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ========== 1. HERO ========== -->
+    <section class="hero section--dark">
+      <div class="container hero__inner">
+        <div class="hero__text">
+          <h1>Frumusețea ta, îngrijită fără grabă</h1>
+          <p>Coafură, manichiură, cosmetică și masaj într-un salon liniștit din inima Brașovului, cu specialiști atenți la ce ți se potrivește cu adevărat.</p>
+          <div class="hero__actions">
+            <a href="#programare" class="btn btn--accent">Programează-te</a>
+            <a href="#servicii" class="btn btn--outline">Vezi serviciile</a>
+          </div>
+        </div>
+        <div class="hero__image media">
+          <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=900&q=80" alt="Interiorul salonului Bella Beauty" width="900" height="1100">
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 2. SERVICII ========== -->
+    <section class="section" id="servicii">
+      <div class="container">
+        <h2>Serviciile noastre</h2>
+        <p class="section__intro">Prețurile sunt orientative și fictive, create pentru acest demo.</p>
+
+        <div class="services">
+          <article class="service">
+            <h3>Coafură și Frizerie</h3>
+            <ul class="price-list">
+              <li><span>Tuns damă</span><span>120 RON</span></li>
+              <li><span>Tuns bărbați</span><span>70 RON</span></li>
+              <li><span>Vopsit rădăcini</span><span>190 RON</span></li>
+              <li><span>Coafat pentru ocazii</span><span>150 RON</span></li>
+            </ul>
+          </article>
+          <article class="service">
+            <h3>Manichiură și Pedichiură</h3>
+            <ul class="price-list">
+              <li><span>Manichiură clasică</span><span>80 RON</span></li>
+              <li><span>Manichiură semipermanentă</span><span>130 RON</span></li>
+              <li><span>Pedichiură clasică</span><span>140 RON</span></li>
+              <li><span>Pedichiură semipermanentă</span><span>180 RON</span></li>
+            </ul>
+          </article>
+          <article class="service">
+            <h3>Cosmetică și Îngrijire Facială</h3>
+            <ul class="price-list">
+              <li><span>Curățare facială</span><span>180 RON</span></li>
+              <li><span>Tratament hidratant</span><span>220 RON</span></li>
+              <li><span>Modelare și vopsit sprâncene</span><span>70 RON</span></li>
+              <li><span>Epilare cu ceară, față</span><span>60 RON</span></li>
+            </ul>
+          </article>
+          <article class="service">
+            <h3>Estetică Corporală și Masaj</h3>
+            <ul class="price-list">
+              <li><span>Masaj de relaxare, 60 min</span><span>200 RON</span></li>
+              <li><span>Masaj anticelulitic, 45 min</span><span>180 RON</span></li>
+              <li><span>Peeling corporal</span><span>150 RON</span></li>
+              <li><span>Epilare cu ceară, picioare</span><span>110 RON</span></li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 3. DESPRE ========== -->
+    <section class="section section--tint" id="despre">
+      <div class="container about">
+        <div class="about__image media">
+          <img src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?auto=format&fit=crop&w=900&q=80" alt="Stilistă lucrând într-un salon" loading="lazy" width="900" height="1000">
+        </div>
+        <div class="about__text">
+          <h2>Un salon construit pe încredere</h2>
+          <p>Bella Beauty a început în 2016 ca un cabinet mic, cu două scaune și o idee simplă: clientele să plece mereu mulțumite, nu grăbite. De atunci, echipa a crescut, dar ritmul a rămas același.</p>
+          <p>Lucrăm cu produse profesionale, dezinfectăm riguros fiecare unealtă și ne luăm timp să ascultăm ce îți dorești înainte de a începe. La noi, o programare înseamnă o oră în care contezi tu.</p>
+          <p>Salonul este amenajat în tonuri calde, cu lumină naturală și muzică discretă, ca să te simți bine de la intrare.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 4. GALERIE ========== -->
+    <section class="section" id="galerie">
+      <div class="container">
+        <h2>Galerie</h2>
+        <div class="gallery">
+          <figure class="media gallery__item gallery__item--tall"><img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=800&q=80" alt="Coafură realizată în salon" loading="lazy"></figure>
+          <figure class="media gallery__item"><img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=800&q=80" alt="Manichiură îngrijită" loading="lazy"></figure>
+          <figure class="media gallery__item"><img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=800&q=80" alt="Tratament facial" loading="lazy"></figure>
+          <figure class="media gallery__item"><img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&q=80" alt="Styling de păr" loading="lazy"></figure>
+          <figure class="media gallery__item"><img src="https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&w=800&q=80" alt="Spațiu de relaxare și masaj" loading="lazy"></figure>
+          <figure class="media gallery__item gallery__item--wide"><img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=1200&q=80" alt="Tuns și aranjat la frizerie" loading="lazy"></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 5. RECENZII ========== -->
+    <section class="section section--dark" id="recenzii">
+      <div class="container">
+        <h2>Ce spun clientele</h2>
+        <p class="section__intro">Recenzii fictive, create pentru acest demo.</p>
+        <div class="reviews">
+          <blockquote class="review">
+            <p>M-au ascultat cu adevărat. Am plecat cu o coafură pe care o pot întreține singură acasă, fără bătăi de cap.</p>
+            <footer>Andreea M.</footer>
+          </blockquote>
+          <blockquote class="review">
+            <p>Curat, liniștit și punctual. Manichiura a ținut perfect aproape trei săptămâni.</p>
+            <footer>Cristina P.</footer>
+          </blockquote>
+          <blockquote class="review">
+            <p>Masajul a fost exact ce aveam nevoie după o săptămână grea. Revin cu drag.</p>
+            <footer>Ioana T.</footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 6 + 7. PROGRAM, LOCAȚIE ȘI CONTACT ========== -->
+    <section class="section" id="program">
+      <div class="container info">
+        <div>
+          <h2>Program</h2>
+          <table class="hours">
+            <tbody>
+              <tr><th scope="row">Luni - Vineri</th><td>09:00 - 20:00</td></tr>
+              <tr><th scope="row">Sâmbătă</th><td>09:00 - 16:00</td></tr>
+              <tr><th scope="row">Duminică</th><td>Închis</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div id="contact">
+          <h2>Contact</h2>
+          <address class="contact">
+            <p>Strada Exemplu 12<br>Brașov, România</p>
+            <p><a href="tel:+40775219949">+40 775 219 949</a><br>
+               <a href="mailto:salon@bellabeauty.example">salon@bellabeauty.example</a></p>
+          </address>
+        </div>
+
+        <!-- Hartă Google Maps. Pentru altă locație, înlocuiește valoarea src cu cea de la Google
+             (Google Maps > Share > Embed a map > Copy HTML). -->
+        <div class="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11157.729672087231!2d25.578879473699864!3d45.64213728916719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b35b7ae645555f%3A0xb703bb5d36a41691!2zUGlhyJthIFNmYXR1bHVpLCBCcmHImW92!5e0!3m2!1sro!2sro!4v1791403660124!5m2!1sro!2sro" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" title="Harta locației Bella Beauty"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 8. PROGRAMARE ========== -->
+    <section class="booking section--dark" id="programare">
+      <div class="container">
+        <h2>Rezervă-ți locul la Bella Beauty</h2>
+        <p>Alege serviciul și ora care ți se potrivesc. Te așteptăm cu drag.</p>
+        <!-- WhatsApp: numărul este în format internațional, fără + și fără spații -->
+        <a href="https://wa.me/40775219949?text=Bun%C4%83%2C%20a%C8%99%20dori%20o%20programare." class="btn btn--accent btn--large" target="_blank" rel="noopener">Programează-te acum</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== 9. SUBSOL ========== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div>
+        <p class="logo">Bella Beauty</p>
+        <p class="footer__note">Salon de înfrumusețare, Brașov.</p>
+      </div>
+      <nav aria-label="Navigare subsol">
+        <ul>
+          <li><a href="#servicii">Servicii</a></li>
+          <li><a href="#despre">Despre noi</a></li>
+          <li><a href="#galerie">Galerie</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div>
+        <p>+40 775 219 949<br>salon@bellabeauty.example</p>
+        <!-- Înlocuiește # cu linkurile reale de social media -->
+        <ul class="social">
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">TikTok</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="footer__copy container">© 2026 Bella Beauty. Site demonstrativ, toate datele sunt fictive.</p>
+  </footer>
+
+</body>
+</html>
